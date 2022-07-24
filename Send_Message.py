@@ -41,7 +41,7 @@ class Messaging:
 
 	def Send_it(self):	
 		"""
-		Sends the email once the class is instantiated
+		When called, sends the email once the class is instantiated
 		"""
 		print("Sending...")
 		context = ssl.create_default_context()
